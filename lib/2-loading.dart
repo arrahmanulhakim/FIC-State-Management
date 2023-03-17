@@ -36,7 +36,7 @@ class _LoadingState extends State<Loading> {
         actions: [
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.blueGrey,
+              backgroundColor: Colors.green,
             ),
             onPressed: () async {
               loading = true;
